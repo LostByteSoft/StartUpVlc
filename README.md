@@ -28,7 +28,7 @@ path="C:\Program Files\VideoLAN\VLC\vlc.exe"
 ;; start delay in seconds : 0 to 24000
 ;; also used to no wait if computer is started by the number of seconds in delay
 
-delay=10
+delay=5
 
 ;; minimize , maximize , donothing : 0 or 1
 ;; ONLY 1 CAN BE 1 ALL OTHERS MUST BY 0
@@ -36,6 +36,15 @@ delay=10
 maximize=0
 minimize=1
 donothing=0
+runfullscreen=0
+
+;; You can start a fullscreen with this video file on startup.
+;; Change runfullscreen to 1 (all others to 0)
+;; Autorun set to 1
+;; autoplayvideo set to 1 , video will play at startup of the computer.
+;; Need full path for the video.
+autoplayvideo=0
+video="C:\Windows\WinSxS\amd64_microsoft-windows-c..st.appxmain.desktop_31bf3856ad364e35_10.0.26100.1591_none_24d501a973fa7371\oobe-intro.mp4"
 
 ;;--- Read me file ---
 ;
