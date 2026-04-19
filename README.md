@@ -8,6 +8,8 @@ You can change all options in file StartUpVlc.ini
 
 First version: 2026-04-12
 
+![Screenshot](img_001.jpg)
+
 Copy of StartUpVlc.ini
 ----------------------------------------------------
 
